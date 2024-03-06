@@ -4,4 +4,4 @@ This [dmetzler1988-org](https://github.com/dmetzler1988-org) organziation contai
 
 There are some tools :hammer_and_wrench: which can help you on daily tasks :clipboard: or make your life easier with some scripts :rocket:.
 
-Any sponsoring and contribution on these repositories/projects is very welcome :gift_heart:
+Any sponsoring and contribution on these repositories/projects is very welcome :gift_heart:.
