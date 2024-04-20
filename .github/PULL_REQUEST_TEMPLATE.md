@@ -3,9 +3,8 @@
 Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request. If it fixes a bug or resolves a feature request, be sure to link to that issue.
 
 ## Types of changes
-
-What types of changes does your code introduce to this project?
-_Put an `x` in the boxes that apply_
+<!--- What types of changes does your code introduce to this project? -->
+<!--- Put an `x` in the boxes that apply -->
 
 - [ ] Bugfix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
@@ -19,8 +18,7 @@ _Put an `x` in the boxes that apply_
 <!--- Please add a link to the issue here if one exist -->
 
 ## Checklist
-
-_Put an `x` in the boxes that apply. You can also fill these out after creating the PR. If you're unsure about any of them, don't hesitate to ask. We're here to help! This is simply a reminder of what we are going to look for before merging your code._
+<!--- Put an `x` in the boxes that apply. You can also fill these out after creating the PR. If you're unsure about any of them, don't hesitate to ask. We're here to help! This is simply a reminder of what we are going to look for before merging your code. -->
 
 - [ ] I have read the [CONTRIBUTING.md](CONTRIBUTING.md)
 - [ ] I have performed a self-review of my code
@@ -29,13 +27,13 @@ _Put an `x` in the boxes that apply. You can also fill these out after creating 
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
 
-# How Has This Been Tested?
+## How Has This Been Tested?
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+<!--- Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration -->
 
 - [ ] Test A
 - [ ] Test B
 
 ## Further comments
 
-If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution you did and what alternatives you considered, etc...
+<!--- If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution you did and what alternatives you considered, etc... -->
