@@ -2,3 +2,54 @@ name: Bug Report
 description: Report an bug
 title: "[Bug]: "
 labels: "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the issue here.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Describe the steps to reproduce this bug.
+      placeholder: 1.\n 2.\
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: Expected behaviour
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: What type of Operating System are you seeing the problem on?
+      placeholder: ex. macOS 14.4.1
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: What type of browser are you seeing the problem on?
+      placeholder: ex. Google Chrome Version 123.0.6312.124
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Code to produce this issue.
+      description: Please copy and paste any relevant logs/code to re-produce this issue. And the version of the browser you are using. 
+      render: shell
