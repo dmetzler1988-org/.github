@@ -8,7 +8,7 @@ body:
       value: |
         We appreciate your feedback on how to improve this project. Please be sure to include as much details & any resources if possible!
   - type: textarea
-    id: Suggestion
+    id: suggestion
     attributes:
       label: Suggestion / Feature Request
       description: Describe the feature(s) you would like to see added.
@@ -17,7 +17,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: SuggestionReason
+    id: suggestion-reason
     attributes:
       label: Reason of Suggestion / Feature Request
       description: Describe why you would like to have this suggestion / feature request. What impact does this have in your opinion?
