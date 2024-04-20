@@ -1,0 +1,23 @@
+name: Question
+description: Ask a question
+title: "[Question]: "
+labels: "question"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate your question to this project. Please be sure to include as much details & any resources if possible!
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Ask your question depending to this project.
+    validations:
+      required: true
+  - type: textarea
+    id: other
+    attributes:
+      label: Other informations
+      description: Do you have more details to your questions? Add it here.
+    validations:
+      required: false
